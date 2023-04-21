@@ -1,0 +1,10 @@
+resource_group_name = "Docker"
+location = "East US"
+vm_name = "Docker-VM"
+vm_size = "Standard_B2s"
+vnet_name = "Docker-Vnet"
+vnet_address_space = ["192.168.0.0/24"]
+subnet_name = "Docker-subnet"
+subnet_address_space = ["192.168.0.0/26"]
+admin_username = "localadmin"
+admin_password = "india@123456"
